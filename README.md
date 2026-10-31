@@ -1,4 +1,12 @@
-# Agent Team
+# Agent Team (v1, archived)
+
+> **Archived — this is agent-team v1 (0.5.2), frozen at tag `v1-final`.** It gets no further fixes.
+> The current version, v2 (a story-driven harness with deterministic gates), lives at
+> [Kain1989/agent-team](https://github.com/Kain1989/agent-team). What changed and what v2 dropped
+> (including this Mission Control portal) is in
+> [V2-VS-V1.md](https://github.com/Kain1989/agent-team/blob/main/V2-VS-V1.md).
+> To keep using v1 as a plugin: `/plugin marketplace add Kain1989/agent-team-v1`.
+
 
 An AI engineering team you clone and run from Claude Code, on your own machine.
 
@@ -294,7 +302,7 @@ the commands and run them in any project — the same flow in the CLI, the deskt
 claude.ai.
 
 ```
-/plugin marketplace add Kain1989/agent-team
+/plugin marketplace add Kain1989/agent-team-v1
 /plugin install agent-team@agent-team-marketplace
 /reload-plugins
 ```
